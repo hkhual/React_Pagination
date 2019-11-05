@@ -31,3 +31,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+a{
+  margin: 15px;
+  background: black;
+  color: white;
+  font-size: 25px;
+
+}

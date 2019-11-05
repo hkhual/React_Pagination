@@ -32,6 +32,13 @@ const App = () => {
   const paginate= (pageNumber) => setCurrentPage(pageNumber);
   return (
     <div className="container mt-5">
+      <nav className="text-primary">
+        <a href="/#">Home</a>
+        <a href="/#">About</a>
+        <a href="/#">Support</a>
+        <a href="/#">Contact</a>
+      </nav>
+   
       <h1 className="text-primary mb-3">My Blog</h1>
       <Posts posts={currentPosts} loading={loading} />
       <Pagination postsPerPage={postsPerPage} totalPosts={posts.length} paginate={paginate} />
