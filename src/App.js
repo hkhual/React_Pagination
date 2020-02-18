@@ -42,6 +42,12 @@ const App = () => {
       <h1 className="text-primary mb-3">My Blog</h1>
       <Posts posts={currentPosts} loading={loading} />
       <Pagination postsPerPage={postsPerPage} totalPosts={posts.length} paginate={paginate} />
+
+
+    <div className="footer">
+      <p>Copyright: 2019</p>
+    </div>
+
     </div>
   );
 }
